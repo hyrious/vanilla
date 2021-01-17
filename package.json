@@ -1,0 +1,27 @@
+{
+    "name": "vanilla",
+    "version": "0.1.0",
+    "description": "Get everything done in vanilla js.",
+    "main": "dist/vanilla.cjs.js",
+    "exports": {
+        "import": "./dist/vanilla.es.js",
+        "require": "./dist/vanilla.cjs.js"
+    },
+    "module": "dist/vanilla.es.js",
+    "browser": "dist/vanilla.iife.js",
+    "sideEffects": false,
+    "files": [
+        "src",
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "repository": "hyrious/vanilla",
+    "author": "hyrious <hyrious@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "vite": "^2.0.0-beta.64"
+    }
+}
